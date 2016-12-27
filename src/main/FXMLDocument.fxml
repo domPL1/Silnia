@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="116.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.FXMLDocumentController">
+   <children>
+      <Button fx:id="button2" disable="true" layoutX="14.0" layoutY="46.0" mnemonicParsing="false" onAction="#stop" prefHeight="25.0" prefWidth="49.0" text="Stop" />
+      <TextField fx:id="text" layoutX="14.0" layoutY="78.0" prefHeight="25.0" prefWidth="49.0" />
+      <Label fx:id="label1" layoutX="76.0" layoutY="14.0" prefHeight="25.0" prefWidth="234.0" />
+      <Label fx:id="label2" layoutX="76.0" layoutY="46.0" prefHeight="25.0" prefWidth="234.0" />
+      <Label fx:id="label3" layoutX="76.0" layoutY="78.0" prefHeight="25.0" prefWidth="234.0" text=" " />
+      <Button fx:id="button1" layoutX="13.0" layoutY="14.0" mnemonicParsing="false" onAction="#oblicz" prefHeight="25.0" prefWidth="49.0" text="Oblicz" />
+   </children>
+</AnchorPane>
